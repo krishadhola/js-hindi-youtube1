@@ -19,12 +19,17 @@ function myName()
 // NumAdd(3,4)
 
 function NumAdd(Number1,Number2)
-{
-        let result= Number1+Number2
-        return result             //any atatement not processed after return keyword
+ {
+//         let result= Number1+Number2
+//         return result             //any statement not processed after return keyword
+            
+//or
+
+            return Number1 + Number2 
 }
+
   const result=NumAdd(3,5)
-  console.log("result",result);
+  // console.log("result",result);
   
 
 
